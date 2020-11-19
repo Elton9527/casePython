@@ -97,3 +97,30 @@ for letter in 'Python':
         print('这是个占位')
     print('当前字母：', letter)
 print('Good Bye')
+
+
+# 访问字符串中的值， 可以使用方括号来截取字符串
+var1 = 'Hello World'
+print(var1[0:5])
+
+# 字符串连接 '+'
+var1 = 'Hello World!'
+print(var1[:6] + 'Elton')
+
+# 字符串重复输出
+print(var1 * 2)
+
+# in 字符串成员运算符
+print('H' in var1)
+print('Z' in var1)
+
+# 字符串格式化
+print("My name is %s and weight is %d Kg!" % ('Elton', 80))
+
+# 三引号 '''
+# 三引号可以将复杂的字符串进行赋值, 允许一个字符串跨多行，字符串中可以包含换行符、制表符及其他特殊字符
+hi = '''hi 
+there 
+'''
+print(hi)
+
